@@ -21,7 +21,7 @@ This script provides a GUI interface in Altium Designer to quickly create custom
 1. **Running the Script**:
    - In Altium Designer, go to:
      ```
-     DXP → Run Script...
+     File → Run Script...
      ```
    - Select the Downloaded Script
 
@@ -50,7 +50,15 @@ This script provides a GUI interface in Altium Designer to quickly create custom
 2. **Output**:
    - Creates board with desired size and corner radius
    - Adds 4 decorative mounting holes
-
+  ### Note:
+  For manufacturing the board you have to define keep-out board of your PCB.
+  
+  Go to:
+     ```
+     Design → Baord Shape → Create Primitives From Board Shape
+     ```
+ then choose Keep-Out Layer
+  
 3. **Visual Example**:
 ![Tutorial Animation](./PCBCreator.gif)
 
